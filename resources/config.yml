@@ -1,0 +1,16 @@
+# Use {player} to represent the player's name and {block} to represent the block's name
+broadcast.message: "{player} has mined a {block}!"
+
+# Define the block types that should trigger an announcement
+# UPPER-CASE only!
+blocks:
+  - DIAMOND_ORE
+  - EMERALD_ORE
+
+# If "enable.all.worlds" disabled then only worlds affected in the array below gets affected
+worlds:
+  - "test"
+  - "example_world"
+
+# If "true" all worlds gets affected
+enabled.all.worlds: true
